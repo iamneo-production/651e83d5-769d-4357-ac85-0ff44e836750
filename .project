@@ -6,17 +6,18 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+
 			<name>org.eclipse.m2e.core.maven2Builder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
-		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1689483155554</id>
+
 			<name></name>
 			<type>30</type>
 			<matcher>
