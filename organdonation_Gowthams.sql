@@ -1,6 +1,5 @@
 set timing on;
 desc BLOOD_BANK;
-
 select * from BLOOD_BANK;
 
 
