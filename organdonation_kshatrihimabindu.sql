@@ -7,8 +7,7 @@ SELECT * FROM BLOOD_BANK;
 SELECT COUNT(ID) AS "COUNT OF NO OF BLOOD BANK" , STATE FROM BLOOD_BANK GROUP BY STATE;
 
 --2. Write a sql querry to list out the blood banks in AndhraPradesh state
-SELECT "Blood Bank Name" FROM BLOOD_BANK 
-WHERE STATE = 'Andhra Pradesh';
+SELECT "Blood Bank Name" FROM BLOOD_BANK WHERE STATE = 'Andhra Pradesh';
 
 --3. Write a SQL query to find the total blood banks in the dataset
 SELECT DISTINCT "Blood Bank Name" FROM BLOOD_BANK;
