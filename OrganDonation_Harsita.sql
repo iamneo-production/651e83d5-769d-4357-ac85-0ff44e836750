@@ -16,7 +16,8 @@ WHERE STATE = 'Andhra Pradesh';
 
 -- (3) Write a sql query to find  total blood banks in data set 
 SELECT DISTINCT COUNT("Blood Bank Name")
- FROM BLOOD_BANK;
+ FROM BLOOD_BANK; 
+
 
 
 -- (4) Write a sql query to display the first 5 blood bank's names in ascending order 
