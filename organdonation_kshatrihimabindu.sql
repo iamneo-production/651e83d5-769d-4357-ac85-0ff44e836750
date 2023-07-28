@@ -2,6 +2,7 @@ set timing on;
 desc BLOOD_BANK;
 SELECT * FROM BLOOD_BANK;
 
+
 --1. Write a sql query to find the total count of banks in each state
 SELECT COUNT(ID) AS "COUNT OF NO OF BLOOD BANK" , STATE FROM BLOOD_BANK GROUP BY STATE;
 
