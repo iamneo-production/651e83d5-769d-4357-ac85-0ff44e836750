@@ -6,23 +6,31 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+<<<<<<< HEAD
 			<name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+=======
+
+>>>>>>> a3da9a00de65c50abe96eaf539b809602b79ca75
 			<name>org.eclipse.m2e.core.maven2Builder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
+<<<<<<< HEAD
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+=======
+.eclipse.m2e.core.maven2Nature</nature>
+>>>>>>> a3da9a00de65c50abe96eaf539b809602b79ca75
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1689483155554</id>
+
 			<name></name>
 			<type>30</type>
 			<matcher>
