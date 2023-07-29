@@ -19,6 +19,7 @@ SELECT DISTINCT "Blood Bank Name" from BLOOD_BANK;
 --Just cross checking
 SELECT DISTINCT COUNT("Blood Bank Name") from BLOOD_BANK;
 
+
 -- (4) Write a sql query to display the first 5 blood bank's names in ascending order 
 SELECT DISTINCT "Blood Bank Name" FROM BLOOD_BANK ORDER BY "Blood Bank Name"  FETCH NEXT 5 ROWS ONLY;
 
