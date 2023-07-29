@@ -3,7 +3,6 @@ desc BLOOD_BANK;
 
 select * from BLOOD_BANK;
 
-
 --Write a sql querry to find the total count of blood banks in each state 
 SELECT COUNT(ID) AS "COUNT OF NO OF BLOOD BANK" , STATE
 FROM BLOOD_BANK GROUP BY STATE;
@@ -18,11 +17,7 @@ SELECT DISTINCT "Blood Bank Name"
 FROM BLOOD_BANK;
 
 --Write a sql query to display the first 5 blood bank's names in ascending order 
-SELECT "Blood Bank Name" 
-FROM BLOOD_BANK 
-ORDER BY "Blood Bank Name"
-FETCH FIRST 5 ROWS ONLY;
+SELECT "Blood Bank Name" FROM BLOOD_BANK ORDER BY "Blood Bank Name" FETCH FIRST 5 ROWS ONLY;
 
 --Write a sql query to list the blood banks name in alphabetical order 
-SELECT "Blood Bank Name"
- FROM BLOOD_BANK ORDER BY "Blood Bank Name";
+SELECT "Blood Bank Name" FROM BLOOD_BANK ORDER BY "Blood Bank Name";
