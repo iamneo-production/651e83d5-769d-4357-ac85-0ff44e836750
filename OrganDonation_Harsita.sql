@@ -1,7 +1,7 @@
 set timing on;
 desc BLOOD_BANK;
 
-select * from BLOOD_BANK;
+
 
 
 -- (1) Write a sql query to find the total count of blood banks in each state 
@@ -29,6 +29,6 @@ FETCH NEXT 5 ROWS ONLY;
 -- (5) Write a sql query to list the blood banks name in alphabetical order 
 SELECT DISTINCT "Blood Bank Name" 
 FROM BLOOD_BANK 
-ORDER BY "Blood Bank Name";
+ORDER BY ASC "Blood Bank Name";
 
 
