@@ -1,7 +1,6 @@
 set timing on;
 desc BLOOD_BANK;
 
-select * from BLOOD_BANK;
 
 
 -- SQL QUERY TO FIND TOTAL COUNT OF BLOOD BANKS IN EACH STATE 
