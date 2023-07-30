@@ -2,7 +2,7 @@ set timing on;
 desc BLOOD_BANK;
 
 select * from BLOOD_BANK;
---Write a sql querry to find the total count of blood banks in each state 
+--Write a sql querry to find  total count of blood banks in each state 
 SELECT COUNT(ID) AS "COUNT OF NO OF BLOOD BANK" , STATE  FROM BLOOD_BANK GROUP BY STATE;
 
 --Write a sql querry to list out the blood banks in Andrapradesh state 
