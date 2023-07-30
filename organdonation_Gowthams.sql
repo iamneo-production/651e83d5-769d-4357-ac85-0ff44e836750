@@ -1,6 +1,6 @@
 set timing on;
 desc BLOOD_BANK;
-select * from BLOOD_BANK;
+
 
  
  
@@ -23,4 +23,4 @@ SELECT DISTINCT COUNT("Blood Bank Name") from BLOOD_BANK;
 SELECT DISTINCT "Blood Bank Name" FROM BLOOD_BANK ORDER BY "Blood Bank Name"  FETCH NEXT 5 ROWS ONLY;
 
 -- (5) Write a sql query to list the blood banks name in alphabetical order 
-SELECT DISTINCT "Blood Bank Name" FROM BLOOD_BANK ORDER BY "Blood Bank Name";
+SELECT DISTINCT "Blood Bank Name" FROM BLOOD_BANK ORDER BY  ASC "Blood Bank Name";
