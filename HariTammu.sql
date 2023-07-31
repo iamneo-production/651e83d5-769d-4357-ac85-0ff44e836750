@@ -14,4 +14,4 @@ SELECT DISTINCT "Blood Bank Name"  FROM BLOOD_BANK;
 SELECT "Blood Bank Name" FROM BLOOD_BANK ORDER BY "Blood Bank Name" FETCH FIRST 5 ROWS ONLY;
 
 --Write a sql query to list the blood banks name in alphabetical order 
-SELECT "Blood Bank Name" FROM BLOOD_BANK ORDER BY ASC "Blood Bank Name";
+SELECT "Blood Bank Name" FROM BLOOD_BANK ORDER BY  "Blood Bank Name" ASC;
